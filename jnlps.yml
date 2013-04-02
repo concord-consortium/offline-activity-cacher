@@ -1,5 +1,51 @@
 ---
+er-changes-environment:
+  jnlp: http://static.concord.org/activity-finder/jnlp/er-changes-environment.jnlp
 er-experiment-ecosystems:
-  :jnlp: http://static.concord.org/activity-finder/jnlp/er-experiment-ecosystems.jnlp
-udl-clouds:
-  :jnlp: http://static.concord.org/activity-finder/jnlp/udl-clouds.jnlp
+  jnlp: http://static.concord.org/activity-finder/jnlp/er-experiment-ecosystems.jnlp
+er-mystery-plant-adaptation:
+  jnlp: http://static.concord.org/activity-finder/jnlp/er-mystery-plant-adaptation.jnlp
+er-mystery-plants-mystery:
+  jnlp: http://static.concord.org/activity-finder/jnlp/er-mystery-plants-mystery.jnlp
+er-natural-selection:
+  jnlp: http://static.concord.org/activity-finder/jnlp/er-natural-selection.jnlp
+er-predators-prey:
+  jnlp: http://static.concord.org/activity-finder/jnlp/er-predators-prey.jnlp
+er-virtual-ecosystem:
+  jnlp: http://static.concord.org/activity-finder/jnlp/er-virtual-ecosystem.jnlp
+er-virtual-field:
+  jnlp: http://static.concord.org/activity-finder/jnlp/er-virtual-field.jnlp
+er-virtual-greenhouse:
+  jnlp: http://static.concord.org/activity-finder/jnlp/er-virtual-greenhouse.jnlp
+er-variations-adaptations:
+  jnlp: http://static.concord.org/activity-finder/jnlp/er-variations-adaptations.jnlp
+has-life-in-space:
+  jnlp: http://has.portal.concord.org/investigations/63.jnlp
+has-modeling-earth-climate:
+  jnlp: http://has.portal.concord.org/investigations/7.jnlp
+has-fresh-water:
+  jnlp: http://has.portal.concord.org/investigations/48.jnlp
+itsi-su-charles-law-goio:
+  jnlp: http://itsisu.portal.concord.org/activities/37.jnlp?teacher_mode=true
+  override_arg: http://itsisu.portal.concord.org/activities/37.config?teacher_mode=true
+  wrapped_jnlp: http://jnlp.concord.org/dev3/org/concord/maven-jnlp/itsisu-otrunk/itsisu-otrunk-0.1.0-20121127.152823-b.jnlp
+itsi-su-charles-law-pasco:
+  jnlp: http://static.concord.org/activity-finder/jnlp/itsi-su-charles-law-pasco.jnlp
+  override_arg: http://static.concord.org/activity-finder/config/itsi-su-charles-law-pasco.config
+  wrapped_jnlp: http://jnlp.concord.org/dev3/org/concord/maven-jnlp/itsisu-otrunk/itsisu-otrunk-0.1.0-20121127.152823-b.jnlp
+itsi-su-temperature-mixing-water-goio:
+  jnlp: http://itsisu.portal.concord.org/activities/112.jnlp?teacher_mode=true
+  override_arg: http://itsisu.portal.concord.org/activities/112.config?teacher_mode=true
+  wrapped_jnlp: http://jnlp.concord.org/dev3/org/concord/maven-jnlp/itsisu-otrunk/itsisu-otrunk-0.1.0-20121127.152823-b.jnlp
+itsi-su-temperature-mixing-water-pasco:
+  jnlp: http://static.concord.org/activity-finder/jnlp/itsi-su-temperature-mixing-water-pasco.jnlp
+  override_arg: http://static.concord.org/activity-finder/config/itsi-su-temperature-mixing-water-pasco.config
+  wrapped_jnlp: http://jnlp.concord.org/dev3/org/concord/maven-jnlp/itsisu-otrunk/itsisu-otrunk-0.1.0-20121127.152823-b.jnlp
+itsi-su-diffusion:
+  jnlp: http://itsisu.portal.concord.org/activities/100.jnlp?teacher_mode=true
+  override_arg: http://itsisu.portal.concord.org/activities/100.config?teacher_mode=true
+  wrapped_jnlp: http://jnlp.concord.org/dev3/org/concord/maven-jnlp/itsisu-otrunk/itsisu-otrunk-0.1.0-20121127.152823-b.jnlp
+itsi-su-predator-prey:
+  jnlp: http://itsisu.portal.concord.org/activities/223.jnlp?teacher_mode=true
+  override_arg: http://itsisu.portal.concord.org/activities/223.config?teacher_mode=true
+  wrapped_jnlp: http://jnlp.concord.org/dev3/org/concord/maven-jnlp/itsisu-otrunk/itsisu-otrunk-0.1.0-20121127.152823-b.jnlp
