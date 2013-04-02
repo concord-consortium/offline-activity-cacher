@@ -23,17 +23,19 @@ def main
     opts["vendor"] = "ConcordConsortium"
     opts["product_name"] = "General"
     opts["product_version"] = "1.0"
-    opts["wrapped_jnlp"] = opts.delete(:jnlp)
     opts["install_if_not_found"] = "true"
     opts["cache_loc"] = "jars"
     opts["jnlp2shell.compact_paths"] = "true"
     opts["jnlp2shell.read_only"] = "true"
-    # opts["jnlp2shell.static_www"] = "true"
-    # opts["jnlp2shell.mirror_host"] = "jars.dev.concord.org"
+
+    original_jnlp = opts.delete("jnlp")
+    # if the original_jnlp is already a JCL jnlp, the config will override wrapped_jnlp already
+    opts["wrapped_jnlp"] = opts.delete("wrapped_jnlp") || original_jnlp
+    opts["override_arg"] = opts.delete("override_arg") if opts["override_arg"]
 
     # Cache the files with concord_cacher
     cacher_opts = {
-      :url => opts["wrapped_jnlp"],
+      :url => original_jnlp,
       :cache_dir => "tmp/cache/resources/",
       :skip => [
         /^http:\/\/.*concord\.org[\/]?$/,
